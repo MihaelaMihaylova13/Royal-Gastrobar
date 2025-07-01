@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Royal Gastrobar by Chef Nicole Rosenova</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #faf7f2;
+      color: #333;
+    }
+    header {
+      background: url('https://source.unsplash.com/1600x900/?gourmet-food') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    header .hero-text {
+      position: relative;
+      z-index: 2;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-weight: 300;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      background-color: #c69f73;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #b4895a;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .menu-preview img, .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 1rem;
+    }
+    .split {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .split div {
+      flex: 1 1 300px;
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    footer a {
+      color: #c69f73;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="hero-text">
+    <h1>Royal Gastrobar</h1>
+    <h2>By Chef Nicole Rosenova</h2>
+    <a href="#reservation" class="btn">Book a Table</a>
+  </div>
+</header>
+
+<section id="about">
+  <h2>Where Culinary Passion Meets Bold Sophistication</h2>
+  <p>Located in the heart of Silistra, Royal Gastrobar is a unique dining experience curated by <strong>Hell’s Kitchen finalist Chef Nicole Rosenova</strong>. Here, every dish tells a story, every cocktail ignites a spark, and every visit leaves a mark.</p>
+</section>
+
+<section class="menu-preview">
+  <h2>Signature Menu Highlights</h2>
+  <div class="split">
+    <div>
+      <h3>🦞 Lobster Risotto</h3>
+      <p>Silky saffron rice, grilled lobster, white wine reduction</p>
+    </div>
+    <div>
+      <h3>🥩 Dry-Aged Ribeye</h3>
+      <p>Charred to perfection, served with bone marrow butter</p>
+    </div>
+    <div>
+      <h3>🍷 Summer Wine Flight</h3>
+      <p>Curated by our sommelier – pairings change monthly</p>
+    </div>
+  </div>
+  <a href="#reservation" class="btn">See Full Menu</a>
+</section>
+
+<section id="gallery" class="gallery">
+  <h2>The Atmosphere</h2>
+  <div class="split">
+    <img src="https://source.unsplash.com/600x400/?restaurant,interior" alt="Interior">
+    <img src="https://source.unsplash.com/600x400/?gourmet,dish" alt="Dish">
+    <img src="https://source.unsplash.com/600x400/?wine" alt="Wine">
+  </div>
+</section>
+
+<section id="reservation">
+  <h2>Reserve Your Table</h2>
+  <p>Use the button below to secure your seat. Walk-ins welcome, but reservations recommended for weekends and wine nights.</p>
+  <a href="https://www.opentable.com/royal-gastrobar" class="btn">Reserve via OpenTable</a>
+</section>
+
+<section id="contact">
+  <h2>Contact & Hours</h2>
+  <p><strong>📍 Location:</strong> Central Square, Silistra, Bulgaria</p>
+  <p><strong>📞 Phone:</strong> +359 88 123 4567</p>
+  <p><strong>🕰 Hours:</strong> Mon–Sat: 12pm – 11pm | Sunday Brunch: 11am – 3pm</p>
+</section>
+
+<footer>
+  <p>© 2025 Royal Gastrobar by Chef Nicole Rosenova. All rights reserved.</p>
+  <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+</footer>
+
+</body>
+</html>
